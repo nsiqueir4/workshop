@@ -11,5 +11,6 @@ def home():
 def login():
     return render_template("inscrições.html")
 
+
 if __name__ == "__main__":
     app.run()
